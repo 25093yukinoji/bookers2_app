@@ -21,21 +21,29 @@
   padding: 0;
   box-sizing: border-box;;
  }
+
 clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .title {
   color: #fff;
   font-size: 20px;
 }
-.body {
-  margin: 55px 10% 0px 8%;
-}
+
 .notice {
   color: green;
   }
+
 .error {
   color: red;
 }
@@ -44,6 +52,8 @@ clearfix::after {
   list-style: square;
   margin-left: 60px;
 }
+
 .actions {
   margin-top: 5px;
 }
+
